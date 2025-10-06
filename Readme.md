@@ -36,18 +36,14 @@ Python 3.10 or later
 
 pip package manager
 
-To install dependencies, run:
-
-pip install -r requirements.txt
+To install dependencies, run: pip install -r requirements.txt
 
 If using a virtual environment, activate it before running the command above.
 
 
 # 🚀 Getting Started
 ## 🖥️ Step 1: Start the Master Server
-Launch the master node (it manages file metadata and coordination):
-
-python master.py
+Launch the master node (it manages file metadata and coordination): python master.py
 
 ## 🗄️ Step 2: Start Worker Nodes
 Run multiple workers on different ports to simulate distributed storage:
@@ -58,9 +54,7 @@ python worker.py --port=50052
 
 python worker.py --port=50053
 
-Each worker will automatically create its own storage directory
-
-(e.g., worker_localhost_50051/, worker_localhost_50052/, etc.).
+Each worker will automatically create its own storage directory (e.g., worker_localhost_50051/, worker_localhost_50052/, etc.).
 
 ## 💻 Step 3: Run the Client
 Once the master and workers are active, open a new terminal and execute file operations:
