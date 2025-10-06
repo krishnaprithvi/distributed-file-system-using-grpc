@@ -1,11 +1,11 @@
-🌐 Distributed File System using gRPC
-
-
+# 🌐 Distributed File System using gRPC
 A lightweight Distributed File System (DFS) built using gRPC and Protocol Buffers (Protobuf).
 The system enables clients to upload, download, and delete files across multiple worker nodes coordinated by a central master server.
 Each worker node manages its own local storage while the master handles metadata and routing.
 Clients communicate with the system using defined gRPC services.
-📁 Project Structure
+
+
+# 📁 Project Structure
 DistributedFileSystemProject/
 │── file_system.proto               # Protobuf file defining gRPC services and messages
 │── file_system_pb2.py              # Generated protobuf definitions
@@ -17,13 +17,17 @@ DistributedFileSystemProject/
 │── logs/                           # Execution logs for master and workers
 │── worker_storage/                 # Simulated distributed storage directories
 │── storage1/, storage2/, ...       # Local storage folders
-⚙️ Prerequisites
+
+
+# ⚙️ Prerequisites
 Python 3.10 or later
 pip package manager
 To install dependencies, run:
 pip install -r requirements.txt
 If using a virtual environment, activate it before running the command above.
-🚀 Getting Started
+
+
+# 🚀 Getting Started
 🖥️ Step 1: Start the Master Server
 Launch the master node (it manages file metadata and coordination):
 python master.py
@@ -43,7 +47,9 @@ python client.py download <file_name>
 ❌ Delete a File
 python client.py delete <file_name>
 All activities and status messages are recorded in the logs/ directory.
-🧠 Design Overview
+
+
+# 🧠 Design Overview
 Master Node
 Maintains file metadata, assigns workers for uploads, and coordinates downloads/deletions.
 Worker Nodes
@@ -52,20 +58,26 @@ Client
 Interacts with the master node through gRPC calls, enabling distributed file operations seamlessly.
 Protobuf Definitions
 The communication protocol is defined in file_system.proto, ensuring strict type safety and efficient serialization.
-🧾 Logging
+
+
+# 🧾 Logging
 Each component (Master and Workers) generates its own log files in the logs/ folder.
 Logs contain details such as request timestamps, status messages, and node-level activities.
 🧪 Testing Notes
 The project can be fully tested locally by running multiple worker processes with unique ports.
 To simulate worker failure, stop one of the worker nodes and observe the master’s handling behavior.
 Modify and extend this setup to explore consistency, replication, or load-balancing strategies.
-🧰 Tools and Technologies
+
+
+# 🧰 Tools and Technologies
 Component	Technology
 Language	Python
 Communication	gRPC
 Serialization	Protocol Buffers
 Logging	Python Logging Module
 Architecture	Master-Worker Model
-📘 License
+
+
+# 📘 License
 This project is intended for academic and research use.
 You are free to modify and extend it for your own experiments in distributed systems, data consistency, or fault tolerance.
