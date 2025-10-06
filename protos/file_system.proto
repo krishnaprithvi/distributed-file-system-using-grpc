@@ -1,0 +1,102 @@
+syntax = "proto3";
+
+service FileSystem {
+    rpc UploadFile (FileRequest) returns (FileResponse);
+    rpc DownloadFile (FileRequest) returns (FileResponse);
+    rpc DeleteFile (FileRequest) returns (FileResponse);
+    rpc ListFiles (ListRequest) returns (FileListResponse);
+    rpc GetFileInfo (FileRequest) returns (FileMetadata);
+    rpc SyncDirectory (DirectoryRequest) returns (stream FileStatus);
+    rpc GetHealth (HealthRequest) returns (HealthResponse);
+    rpc RegisterWorker (WorkerRegistration) returns (WorkerRegistrationResponse);
+    rpc UnregisterWorker (WorkerUnregistration) returns (WorkerUnregistrationResponse);
+}
+
+message WorkerRegistration {
+    string address = 1;
+    int64 total_capacity = 2;
+    string public_key = 3;  // For Byzantine fault tolerance
+}
+
+message WorkerRegistrationResponse {
+    enum Status {
+        ACCEPTED = 0;
+        REJECTED = 1;
+    }
+    Status status = 1;
+    string message = 2;
+}
+
+message WorkerUnregistration {
+    string address = 1;
+}
+
+message WorkerUnregistrationResponse {
+    bool success = 1;
+    string message = 2;
+}
+
+message FileListResponse {
+    repeated string files = 1;
+}
+
+message FileRequest {
+    string filename = 1;
+    bytes data = 2;
+    string version = 3;
+}
+
+message FileResponse {
+    string status = 1;
+    bytes data = 2;
+}
+
+message FileMetadata {
+    string filename = 1;
+    string version = 2;
+    int64 size = 3;
+    int32 replicas = 4;
+    int64 last_modified = 5;
+    string checksum = 6;
+    map<string, string> attributes = 7;
+}
+
+message ListRequest {
+    bool detail = 1;
+    string filter_pattern = 2;
+}
+
+message DirectoryRequest {
+    string path = 1;
+    bool recursive = 2;
+}
+
+message FileStatus {
+    string filename = 1;
+    string status = 2;
+    string message = 3;
+}
+
+message HealthRequest {
+    bool detailed = 1;
+}
+
+message HealthResponse {
+    string status = 1;
+    map<string, WorkerHealth> worker_status = 2;
+    SystemMetrics metrics = 3;
+}
+
+message WorkerHealth {
+    string status = 1;
+    double load = 2;
+    int64 storage_used = 3;
+    int64 storage_total = 4;
+}
+
+message SystemMetrics {
+    int32 total_files = 1;
+    int64 total_storage = 2;
+    double system_load = 3;
+    map<string, int32> file_types = 4;
+}

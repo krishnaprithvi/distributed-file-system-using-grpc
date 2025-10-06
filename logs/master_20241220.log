@@ -1,0 +1,377 @@
+2024-12-20 18:23:48,344 - master - INFO - Starting master server on port 50050...
+2024-12-20 18:24:06,908 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:24:06.908602-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:24:06,908 - master - INFO - Registered new worker: localhost:50055
+2024-12-20 18:24:08,333 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:24:08.333051-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:24:13,354 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B::1%5D:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:24:13.354074-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B::1%5D:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:24:14,453 - master - INFO - Unregistered worker: localhost:50055
+2024-12-20 18:38:08,350 - master - INFO - Health check request received
+2024-12-20 18:38:56,140 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:38:56.14017-06:00"}"
+>
+2024-12-20 18:38:56,140 - master - INFO - Registered new worker: localhost:50055
+2024-12-20 18:38:57,367 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:38:57.367342-06:00"}"
+>
+2024-12-20 18:38:57,575 - master - INFO - Health check request received
+2024-12-20 18:39:02,389 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B::1%5D:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:39:02.389045-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv6:%5B::1%5D:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:39:07,408 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:39:07.408131-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:39:08,224 - master - INFO - Unregistered worker: localhost:50055
+2024-12-20 18:39:09,991 - master - INFO - Health check request received
+2024-12-20 18:40:01,372 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:40:01.371966-06:00"}"
+>
+2024-12-20 18:40:01,372 - master - INFO - Registered new worker: localhost:50055
+2024-12-20 18:40:02,617 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:40:02.61702-06:00"}"
+>
+2024-12-20 18:40:04,101 - master - INFO - Health check request received
+2024-12-20 18:40:07,630 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:40:07.630057-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:40:12,645 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:40:12.645512-06:00"}"
+>
+2024-12-20 18:40:17,669 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:40:17.668694-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:40:22,684 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:40:22.684103-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:40:27,709 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:40:27.709703-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:40:32,733 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:40:32.733034-06:00"}"
+>
+2024-12-20 18:40:37,756 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:40:37.756065-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:40:42,773 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:40:42.773735-06:00"}"
+>
+2024-12-20 18:40:47,792 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:40:47.791832-06:00"}"
+>
+2024-12-20 18:40:52,833 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:40:52.833764-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:40:57,491 - master - INFO - Upload request for file: distributed_systems.txt
+2024-12-20 18:40:57,857 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:40:57.857033-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:41:02,879 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:41:02.879551-06:00"}"
+>
+2024-12-20 18:41:07,903 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:41:07.903559-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:41:12,926 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:41:12.926233-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:41:17,957 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:41:17.957487-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:41:22,991 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:41:22.991125-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:41:28,014 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:41:28.014309-06:00"}"
+>
+2024-12-20 18:41:33,034 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:41:33.034193-06:00"}"
+>
+2024-12-20 18:41:34,802 - master - INFO - Download request for file: distributed_systems.txt
+2024-12-20 18:41:38,058 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:41:38.058664-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:41:43,081 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:41:43.081395-06:00"}"
+>
+2024-12-20 18:41:48,106 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:41:48.105805-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:41:53,143 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:41:53.143259-06:00"}"
+>
+2024-12-20 18:41:58,171 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:41:58.171264-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:42:03,190 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:42:03.190325-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:42:08,218 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:42:08.218475-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:42:13,242 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:42:13.241809-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:42:18,271 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:42:18.27085-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:42:23,301 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:42:23.301133-06:00"}"
+>
+2024-12-20 18:42:28,325 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:42:28.325582-06:00"}"
+>
+2024-12-20 18:42:33,357 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:42:33.35706-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:42:38,383 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:42:38.383171-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:42:43,410 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:42:43.409801-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:42:48,428 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:42:48.428226-06:00"}"
+>
+2024-12-20 18:42:53,463 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:42:53.46355-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:42:58,493 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:42:58.493374-06:00"}"
+>
+2024-12-20 18:43:03,527 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:43:03.527613-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:43:08,552 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:43:08.552155-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:43:13,587 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:43:13.587118-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:43:18,612 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:43:18.611929-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:43:23,631 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:43:23.631584-06:00"}"
+>
+2024-12-20 18:43:28,652 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:43:28.652151-06:00"}"
+>
+2024-12-20 18:43:33,676 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:43:33.676425-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:43:38,694 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:43:38.694322-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:43:43,718 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:43:43.717758-06:00"}"
+>
+2024-12-20 18:43:48,744 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:43:48.743972-06:00"}"
+>
+2024-12-20 18:43:53,763 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:43:53.763253-06:00"}"
+>
+2024-12-20 18:43:58,787 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:43:58.786999-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:44:03,810 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:44:03.81054-06:00"}"
+>
+2024-12-20 18:44:08,833 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:44:08.833323-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:44:13,858 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:44:13.857827-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:44:18,877 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:44:18.877568-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:44:23,901 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:44:23.901027-06:00"}"
+>
+2024-12-20 18:44:28,928 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:44:28.927414-06:00"}"
+>
+2024-12-20 18:44:33,943 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:44:33.943517-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:44:38,970 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:44:38.969664-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:44:44,004 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:44:44.004417-06:00"}"
+>
+2024-12-20 18:44:49,022 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:44:49.022049-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:44:54,052 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-20T18:44:54.051954-06:00"}"
+>
+2024-12-20 18:44:59,063 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:44:59.063635-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:45:04,074 - master - ERROR - Health check failed for localhost:50055: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-20T18:45:04.074731-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50055: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-20 18:45:04,075 - master - WARNING - Worker localhost:50055 marked as inactive
+2024-12-20 18:45:48,407 - master - INFO - Unregistered worker: localhost:50055
+2024-12-20 18:52:39,520 - master - INFO - Delete request for file: distributed_systems.txt
+2024-12-20 18:52:39,521 - master - INFO - Successfully deleted file from localhost:50053
+2024-12-20 18:52:39,522 - master - INFO - Successfully deleted file from localhost:50051
+2024-12-20 18:52:39,523 - master - INFO - Successfully deleted file from localhost:50052
+2024-12-20 18:52:39,524 - master - INFO - Successfully deleted file from localhost:50054
+2024-12-20 19:00:57,479 - master - INFO - Upload request for file: distributed_systems.txt
+2024-12-20 19:01:10,362 - master - INFO - List files request received. Detail: True, Filter: 
+2024-12-20 19:01:10,363 - master - INFO - GetFileInfo request for file: distributed_systems.txt
+2024-12-20 19:02:09,401 - master - INFO - GetFileInfo request for file: distributed_systems.txt
+2024-12-20 19:04:49,812 - master - INFO - Delete request for file: distributed_systems.txt
+2024-12-20 19:04:49,814 - master - INFO - Successfully deleted file from localhost:50053
+2024-12-20 19:04:49,815 - master - INFO - Successfully deleted file from localhost:50051
+2024-12-20 19:04:49,816 - master - INFO - Successfully deleted file from localhost:50052
+2024-12-20 19:04:49,817 - master - INFO - Successfully deleted file from localhost:50054
+2024-12-20 19:04:51,516 - master - INFO - GetFileInfo request for file: distributed_systems.txt
+2024-12-20 19:04:56,832 - master - INFO - List files request received. Detail: True, Filter: 
+2024-12-20 19:05:05,358 - master - INFO - Delete request for file: distributed_systems.txt
+2024-12-20 19:10:49,868 - master - INFO - Download request for file: distributed_systems.txt

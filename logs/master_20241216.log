@@ -1,0 +1,158 @@
+2024-12-16 19:48:39,834 - master - INFO - Starting master server on port 50050...
+2024-12-16 19:48:39,839 - master - ERROR - Worker localhost:50051 health check failed: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50051: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50051: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-16T19:48:39.839811-06:00"}"
+>
+2024-12-16 19:48:39,840 - master - WARNING - Handling failure of worker: localhost:50051
+2024-12-16 19:48:39,840 - master - ERROR - Worker localhost:50052 health check failed: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50052: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-16T19:48:39.840741-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50052: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-16 19:48:39,840 - master - WARNING - Handling failure of worker: localhost:50052
+2024-12-16 19:48:39,841 - master - ERROR - Worker localhost:50053 health check failed: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50053: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50053: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-12-16T19:48:39.841488-06:00"}"
+>
+2024-12-16 19:48:39,841 - master - WARNING - Handling failure of worker: localhost:50053
+2024-12-16 19:49:40,756 - master - INFO - Starting master server on port 50050...
+2024-12-16 19:49:40,760 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 19:49:40,763 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 19:49:40,764 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 19:50:10,778 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 19:50:10,785 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 19:50:10,789 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 19:50:40,801 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 19:50:40,805 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 19:50:40,807 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 19:51:10,819 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 19:51:10,823 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 19:51:10,828 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 19:51:40,840 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 19:51:40,844 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 19:51:40,850 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 19:51:44,245 - master - INFO - List files request received. Detail: False, Filter: 
+2024-12-16 19:51:55,563 - master - INFO - Health check request received
+2024-12-16 19:52:10,865 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 19:52:10,870 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 19:52:10,871 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 19:52:40,887 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 19:52:40,892 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 19:52:40,900 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 19:53:10,911 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 19:53:10,918 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 19:53:10,925 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 19:53:40,937 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 19:53:40,940 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 19:53:40,943 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 19:54:10,955 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 19:54:10,959 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 19:54:10,963 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 19:54:40,977 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 19:54:40,982 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 19:54:40,987 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 19:55:11,002 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 19:55:11,009 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 19:55:11,017 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 19:55:39,815 - master - INFO - Health check request received
+2024-12-16 19:55:41,033 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 19:55:41,040 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 19:55:41,045 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 19:55:42,010 - master - INFO - Received upload request for file: distributed_systems.txt
+2024-12-16 19:55:42,010 - master - ERROR - Upload error: 'list' object has no attribute 'items'
+2024-12-16 19:56:11,054 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 19:56:11,055 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 19:56:11,056 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 19:56:41,067 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 19:56:41,071 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 19:56:41,076 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 19:57:11,084 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 19:57:11,086 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 19:57:11,088 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 19:57:35,834 - master - INFO - Health check request received
+2024-12-16 19:57:41,093 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 19:57:41,095 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 19:57:41,096 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 19:57:42,300 - master - INFO - Health check request received
+2024-12-16 19:57:50,532 - master - INFO - Download request for file: distributed_systems.txt
+2024-12-16 19:58:11,108 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 19:58:11,112 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 19:58:11,116 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 19:58:13,177 - master - INFO - Received upload request for file: distributed_systems.txt
+2024-12-16 19:58:13,177 - master - ERROR - Upload error: 'list' object has no attribute 'items'
+2024-12-16 19:58:21,630 - master - INFO - GetFileInfo request for file: distributed_systems.txt
+2024-12-16 19:58:33,017 - master - INFO - List files request received. Detail: False, Filter: *.txt
+2024-12-16 19:58:41,126 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 19:58:41,136 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 19:58:41,144 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 19:58:44,163 - master - INFO - Delete request for file: distributed_systems.txt
+2024-12-16 19:58:50,112 - master - INFO - Received upload request for file: distributed_systems.txt
+2024-12-16 19:58:50,112 - master - ERROR - Upload error: 'list' object has no attribute 'items'
+2024-12-16 19:59:11,158 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 19:59:11,163 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 19:59:11,169 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 19:59:40,551 - master - INFO - Received upload request for file: distributed_systems.txt
+2024-12-16 19:59:40,551 - master - ERROR - Upload error: 'list' object has no attribute 'items'
+2024-12-16 19:59:41,184 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 19:59:41,193 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 19:59:41,198 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 20:00:11,212 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 20:00:11,220 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 20:00:11,229 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 20:00:41,238 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 20:00:41,241 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 20:00:41,245 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 20:01:11,259 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 20:01:11,265 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 20:01:11,269 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 20:01:41,282 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 20:01:41,288 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 20:01:41,292 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 20:02:11,304 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 20:02:11,308 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 20:02:11,315 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 20:02:41,329 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 20:02:41,333 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 20:02:41,338 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 20:03:11,349 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-12-16 20:03:11,354 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-12-16 20:03:11,358 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-12-16 20:06:40,570 - master - INFO - Starting master server on port 50050...
+2024-12-16 20:07:08,335 - master - INFO - Registered new worker: localhost:50054
+2024-12-16 20:07:28,671 - master - INFO - List files request received. Detail: False, Filter: 
+2024-12-16 20:07:47,206 - master - INFO - Health check request received
+2024-12-16 20:07:53,008 - master - INFO - Health check request received
+2024-12-16 20:08:07,258 - master - INFO - Received upload request for file: distributed_systems.txt
+2024-12-16 20:08:07,266 - master - ERROR - Upload to localhost:50054 failed: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50054: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-12-16T20:08:07.266739-06:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50054: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-12-16 20:08:52,270 - master - INFO - List files request received. Detail: False, Filter: 
+2024-12-16 20:08:56,799 - master - INFO - List files request received. Detail: True, Filter: 
+2024-12-16 20:08:56,800 - master - INFO - GetFileInfo request for file: distributed_systems.txt
+2024-12-16 20:10:00,452 - master - INFO - Delete request for file: distributed_systems.txt
+2024-12-16 20:10:00,455 - master - INFO - Successfully deleted file from localhost:50053
+2024-12-16 20:10:00,457 - master - INFO - Successfully deleted file from localhost:50052
+2024-12-16 20:17:59,646 - master - INFO - Unregistered worker: localhost:50051
+2024-12-16 20:17:59,649 - master - INFO - Unregistered worker: localhost:50052
+2024-12-16 20:17:59,649 - master - INFO - Unregistered worker: localhost:50053
+2024-12-16 20:17:59,649 - master - INFO - Unregistered worker: localhost:50054
+2024-12-16 23:40:09,903 - master - INFO - Starting master server on port 50050...
+2024-12-16 23:43:37,362 - master - INFO - Health check request received
+2024-12-16 23:45:09,930 - master - INFO - Unregistered worker: localhost:50051
+2024-12-16 23:45:09,932 - master - INFO - Unregistered worker: localhost:50052
+2024-12-16 23:45:09,932 - master - INFO - Unregistered worker: localhost:50053
+2024-12-16 23:45:24,981 - master - INFO - Received upload request for file: distributed_systems.txt
+2024-12-16 23:46:21,877 - master - INFO - Starting master server on port 50050...
+2024-12-16 23:46:59,636 - master - INFO - Received upload request for file: distributed_systems.txt
+2024-12-16 23:47:16,664 - master - INFO - List files request received. Detail: True, Filter: 
+2024-12-16 23:47:16,665 - master - INFO - GetFileInfo request for file: distributed_systems.txt
+2024-12-16 23:51:21,908 - master - ERROR - Failed to redistribute distributed_systems.txt: 'NoneType' object has no attribute 'set_code'
+2024-12-16 23:51:21,910 - master - INFO - Unregistered worker: localhost:50051
+2024-12-16 23:51:21,911 - master - ERROR - Failed to redistribute distributed_systems.txt: 'NoneType' object has no attribute 'set_code'
+2024-12-16 23:51:21,911 - master - INFO - Unregistered worker: localhost:50052
+2024-12-16 23:51:21,911 - master - ERROR - No available workers to redistribute distributed_systems.txt
+2024-12-16 23:51:21,911 - master - INFO - Unregistered worker: localhost:50053

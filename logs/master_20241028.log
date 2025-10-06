@@ -1,0 +1,693 @@
+2024-10-28 18:25:58,425 - master - INFO - Starting master server on port 50050...
+2024-10-28 18:25:58,429 - master - ERROR - Worker localhost:50051 health check failed: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50051: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-10-28T18:25:58.429534-05:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50051: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-10-28 18:25:58,429 - master - WARNING - Handling failure of worker: localhost:50051
+2024-10-28 18:25:58,430 - master - ERROR - Worker localhost:50052 health check failed: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50052: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-10-28T18:25:58.430073-05:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50052: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-10-28 18:25:58,430 - master - WARNING - Handling failure of worker: localhost:50052
+2024-10-28 18:25:58,430 - master - ERROR - Worker localhost:50053 health check failed: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50053: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50053: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-10-28T18:25:58.430467-05:00"}"
+>
+2024-10-28 18:25:58,430 - master - WARNING - Handling failure of worker: localhost:50053
+2024-10-28 18:26:28,438 - master - ERROR - Worker localhost:50051 health check failed: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50051: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-10-28T18:26:28.438627-05:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50051: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-10-28 18:26:28,439 - master - WARNING - Handling failure of worker: localhost:50051
+2024-10-28 18:26:28,440 - master - ERROR - Worker localhost:50052 health check failed: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50052: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-10-28T18:26:28.440009-05:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50052: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-10-28 18:26:28,440 - master - WARNING - Handling failure of worker: localhost:50052
+2024-10-28 18:26:28,441 - master - ERROR - Worker localhost:50053 health check failed: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50053: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50053: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-10-28T18:26:28.441032-05:00"}"
+>
+2024-10-28 18:26:28,441 - master - WARNING - Handling failure of worker: localhost:50053
+2024-10-28 18:26:38,251 - master - INFO - Master server stopped
+2024-10-28 18:26:41,570 - master - INFO - Starting master server on port 50050...
+2024-10-28 18:26:41,573 - master - ERROR - Worker localhost:50051 health check failed: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50051: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2024-10-28T18:26:41.572903-05:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50051: Failed to connect to remote host: connect: Connection refused (61)"}"
+>
+2024-10-28 18:26:41,573 - master - WARNING - Handling failure of worker: localhost:50051
+2024-10-28 18:26:41,573 - master - ERROR - Worker localhost:50052 health check failed: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50052: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50052: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-10-28T18:26:41.573444-05:00"}"
+>
+2024-10-28 18:26:41,573 - master - WARNING - Handling failure of worker: localhost:50052
+2024-10-28 18:26:41,573 - master - ERROR - Worker localhost:50053 health check failed: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50053: Failed to connect to remote host: connect: Connection refused (61)"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"failed to connect to all addresses; last error: UNKNOWN: ipv4:127.0.0.1:50053: Failed to connect to remote host: connect: Connection refused (61)", grpc_status:14, created_time:"2024-10-28T18:26:41.573858-05:00"}"
+>
+2024-10-28 18:26:41,573 - master - WARNING - Handling failure of worker: localhost:50053
+2024-10-28 18:26:52,490 - master - INFO - Master server stopped
+2024-10-28 18:28:39,708 - master - INFO - Starting master server on port 50050...
+2024-10-28 18:28:39,714 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:28:39,716 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:28:39,718 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:28:54,451 - master - INFO - Received upload request for file: distributed_systems.txt
+2024-10-28 18:28:54,454 - master - INFO - Received upload request for file: distributed_systems_copy.txt
+2024-10-28 18:28:54,458 - master - INFO - Download request for file: distributed_systems.txt
+2024-10-28 18:28:54,459 - master - INFO - Download request for file: distributed_systems_copy.txt
+2024-10-28 18:28:54,460 - master - INFO - Delete request for file: distributed_systems.txt
+2024-10-28 18:28:54,463 - master - INFO - Delete request for file: distributed_systems_copy.txt
+2024-10-28 18:29:09,732 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:29:09,739 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:29:09,743 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:29:39,756 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:29:39,764 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:29:39,769 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:30:08,588 - master - INFO - Health check request received
+2024-10-28 18:30:09,783 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:30:09,790 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:30:09,801 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:30:39,813 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:30:39,818 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:30:39,823 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:31:09,845 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:31:09,854 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:31:09,861 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:31:39,877 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:31:39,887 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:31:39,892 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:32:09,909 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:32:09,922 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:32:09,927 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:32:39,948 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:32:39,954 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:32:39,959 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:33:09,968 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:33:09,972 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:33:09,974 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:33:39,983 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:33:39,986 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:33:39,988 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:34:09,999 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:34:10,003 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:34:10,005 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:34:25,449 - master - INFO - Received upload request for file: distributed_systems.txt
+2024-10-28 18:34:40,016 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:34:40,021 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:34:40,027 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:34:43,500 - master - INFO - Download request for file: distributed_systems.txt
+2024-10-28 18:34:57,752 - master - INFO - Delete request for file: distributed_systems.txt
+2024-10-28 18:35:10,041 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:35:10,050 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:35:10,052 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:35:40,067 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:35:40,072 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:35:40,077 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:36:00,476 - master - INFO - GetFileInfo request for file: distributed_systems.txt
+2024-10-28 18:36:10,092 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:36:10,099 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:36:10,104 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:36:10,243 - master - INFO - Received upload request for file: distributed_systems.txt
+2024-10-28 18:36:14,098 - master - INFO - GetFileInfo request for file: distributed_systems.txt
+2024-10-28 18:36:40,118 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:36:40,128 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:36:40,132 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:37:10,150 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:37:10,162 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:37:10,170 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:37:40,189 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:37:40,195 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:37:40,200 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:38:10,259 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:38:10,271 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:38:10,274 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:38:40,294 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:38:40,305 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:38:40,311 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:39:10,327 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:39:10,334 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:39:10,338 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:39:40,357 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:39:40,371 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:39:40,376 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:40:10,395 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:40:10,407 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:40:10,413 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:40:40,424 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:40:40,428 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:40:40,432 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:41:10,420 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:41:10,426 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:41:10,430 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:41:40,434 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:41:40,443 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:41:40,447 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:42:10,454 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:42:10,456 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:42:10,457 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:42:40,476 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:42:40,490 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:42:40,498 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:43:10,511 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:43:10,518 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:43:10,523 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:43:40,541 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:43:40,550 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:43:40,557 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:44:10,571 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:44:10,580 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:44:10,586 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:44:40,601 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:44:40,612 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:44:40,616 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:45:10,626 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:45:10,630 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:45:10,633 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:45:40,646 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:45:40,653 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:45:40,660 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:46:10,674 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:46:10,679 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:46:10,687 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:46:40,702 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:46:40,708 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:46:40,714 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:47:10,722 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:47:10,725 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:47:10,729 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:47:40,744 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:47:40,750 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:47:40,759 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:48:10,777 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:48:10,785 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:48:10,797 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:48:40,817 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:48:40,831 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:48:40,836 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:49:10,849 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:49:10,851 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:49:10,855 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:49:40,873 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:49:40,880 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:49:40,885 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:50:10,904 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:50:10,915 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:50:10,921 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:50:40,934 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:50:40,940 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:50:40,945 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:51:10,964 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:51:10,972 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:51:10,977 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:51:40,993 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:51:40,998 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:51:41,005 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:52:11,017 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:52:11,022 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:52:11,028 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:52:41,041 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:52:41,044 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:52:41,048 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:53:11,055 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:53:11,058 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:53:11,061 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:53:41,073 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:53:41,077 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:53:41,082 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:54:11,096 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:54:11,107 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:54:11,114 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:54:41,132 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:54:41,142 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:54:41,151 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:55:11,170 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:55:11,182 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:55:11,190 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:55:41,208 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:55:41,219 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:55:41,226 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:56:11,238 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:56:11,242 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:56:11,249 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:56:41,259 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:56:41,264 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:56:41,269 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:57:11,280 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:57:11,285 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:57:11,289 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:57:41,299 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:57:41,305 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:57:41,311 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:58:11,322 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:58:11,327 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:58:11,332 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:58:41,348 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:58:41,352 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:58:41,358 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:59:11,372 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:59:11,385 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:59:11,392 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 18:59:41,404 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 18:59:41,410 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 18:59:41,415 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:00:11,431 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:00:11,439 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:00:11,447 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:00:41,460 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:00:41,465 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:00:41,470 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:01:11,481 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:01:11,486 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:01:11,491 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:01:41,499 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:01:41,504 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:01:41,508 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:02:11,524 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:02:11,532 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:02:11,538 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:02:41,548 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:02:41,551 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:02:41,554 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:03:11,543 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:03:11,545 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:03:11,548 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:03:41,553 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:03:41,561 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:03:41,567 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:04:11,576 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:04:11,578 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:04:11,579 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:04:41,588 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:04:41,590 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:04:41,592 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:05:11,599 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:05:11,601 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:05:11,602 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:05:15,006 - master - INFO - Master server stopped
+2024-10-28 19:05:22,269 - master - INFO - Starting master server on port 50050...
+2024-10-28 19:05:22,271 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:05:22,272 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:05:22,273 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:05:28,359 - master - INFO - List files request received. Detail: False, Filter: 
+2024-10-28 19:05:52,283 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:05:52,287 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:05:52,291 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:05:58,028 - master - INFO - Received upload request for file: distributed_systems.txt
+2024-10-28 19:06:02,194 - master - INFO - List files request received. Detail: False, Filter: 
+2024-10-28 19:06:08,348 - master - INFO - List files request received. Detail: True, Filter: 
+2024-10-28 19:06:08,349 - master - INFO - GetFileInfo request for file: distributed_systems.txt
+2024-10-28 19:06:22,302 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:06:22,306 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:06:22,311 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:06:52,322 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:06:52,325 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:06:52,329 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:07:22,336 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:07:22,343 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:07:22,348 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:07:37,452 - master - INFO - Download request for file: distributed_systems.txt
+2024-10-28 19:07:43,566 - master - INFO - Download request for file: distributed_systemss.txt
+2024-10-28 19:07:52,357 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:07:52,361 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:07:52,366 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:08:09,766 - master - INFO - GetFileInfo request for file: distributed_systems.txt
+2024-10-28 19:08:22,376 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:08:22,379 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:08:22,381 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:08:52,392 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:08:52,394 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:08:52,396 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:09:22,410 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:09:22,413 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:09:22,419 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:09:52,429 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:09:52,433 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:09:52,437 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:10:22,445 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:10:22,449 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:10:22,453 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:10:52,464 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:10:52,468 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:10:52,472 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:11:22,483 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:11:22,487 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:11:22,491 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:11:52,503 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:11:52,507 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:11:52,510 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:12:22,522 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:12:22,525 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:12:22,529 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:12:52,540 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:12:52,544 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:12:52,549 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:13:22,561 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:13:22,569 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:13:22,575 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:16:19,153 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:16:19,158 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:16:19,163 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:16:33,857 - master - INFO - List files request received. Detail: False, Filter: 
+2024-10-28 19:16:37,517 - master - INFO - List files request received. Detail: True, Filter: 
+2024-10-28 19:16:37,518 - master - INFO - GetFileInfo request for file: distributed_systems.txt
+2024-10-28 19:16:49,178 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:16:49,184 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:16:49,189 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:16:55,432 - master - INFO - Download request for file: distributed_systemss.txt
+2024-10-28 19:17:19,200 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:17:19,204 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:17:19,209 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:17:49,220 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:17:49,224 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:17:49,228 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:18:19,239 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:18:19,243 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:18:19,247 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:18:49,261 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:18:49,265 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:18:49,269 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:18:53,281 - master - INFO - List files request received. Detail: False, Filter: TEXT
+2024-10-28 19:18:53,282 - master - ERROR - Error listing files: name 'fnmatch' is not defined
+2024-10-28 19:19:19,275 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:19:19,279 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:19:19,283 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:19:49,295 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:19:49,299 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:19:49,303 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:20:19,314 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:20:19,318 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:20:19,322 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:20:40,313 - master - INFO - List files request received. Detail: False, Filter: 
+2024-10-28 19:20:47,079 - master - INFO - Download request for file: distributed_systemss.txt
+2024-10-28 19:20:49,330 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:20:49,333 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:20:49,337 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:20:56,293 - master - INFO - GetFileInfo request for file: distributed_systems.txt
+2024-10-28 19:21:16,572 - master - INFO - Delete request for file: distributed_systems.txt
+2024-10-28 19:21:19,347 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:21:19,350 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:21:19,354 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:21:49,367 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:21:49,371 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:21:49,373 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:22:19,384 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:22:19,388 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:22:19,393 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:22:44,001 - master - INFO - List files request received. Detail: False, Filter: 
+2024-10-28 19:22:49,404 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:22:49,406 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:22:49,408 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:22:50,276 - master - INFO - List files request received. Detail: True, Filter: 
+2024-10-28 19:22:54,087 - master - INFO - Delete request for file: distributed_systems.txt
+2024-10-28 19:22:58,094 - master - INFO - Download request for file: distributed_systemss.txt
+2024-10-28 19:23:17,205 - master - INFO - GetFileInfo request for file: distributed_systems.txt
+2024-10-28 19:23:19,418 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:23:19,421 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:23:19,425 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:23:49,441 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:23:49,450 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:23:49,458 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:24:19,475 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:24:19,481 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:24:19,487 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:24:29,897 - master - INFO - Health check request received
+2024-10-28 19:24:49,500 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:24:49,506 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:24:49,510 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:25:08,638 - master - INFO - Health check request received
+2024-10-28 19:25:19,524 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:25:19,532 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:25:19,539 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:25:49,550 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:25:49,552 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:25:49,554 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:26:19,566 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:26:19,571 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:26:19,576 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:26:49,585 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:26:49,587 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:26:49,588 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:27:19,602 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:27:19,609 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:27:19,614 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:27:49,627 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:27:49,632 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:27:49,637 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:28:05,729 - master - INFO - Health check request received
+2024-10-28 19:28:11,318 - master - INFO - GetFileInfo request for file: distributed_systems.txt
+2024-10-28 19:28:19,652 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:28:19,659 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:28:19,664 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:28:49,677 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:28:49,682 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:28:49,688 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:29:19,703 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:29:19,709 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:29:19,714 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:29:49,732 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:29:49,741 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:29:49,746 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:30:19,758 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:30:19,762 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:30:19,765 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:30:49,779 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:30:49,786 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:30:49,791 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:31:19,810 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:31:19,816 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:31:19,822 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:31:49,835 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:31:49,839 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:31:49,842 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:32:19,857 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:32:19,864 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:32:19,870 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:32:49,886 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:32:49,894 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:32:49,901 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:33:19,912 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:33:19,915 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:33:19,920 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:33:49,935 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:33:49,947 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:33:49,954 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:34:19,974 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:34:19,989 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:34:19,995 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:34:50,005 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:34:50,009 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:34:50,012 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:35:20,026 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:35:20,032 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:35:20,038 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:35:50,048 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:35:50,052 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:35:50,055 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:36:20,067 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:36:20,074 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:36:20,085 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:36:50,095 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:36:50,100 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:36:50,104 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:37:20,123 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:37:20,132 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:37:20,135 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:37:50,146 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:37:50,152 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:37:50,158 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:38:20,170 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:38:20,175 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:38:20,179 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:38:50,191 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:38:50,197 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:38:50,202 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:39:20,240 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:39:20,245 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:39:20,250 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:39:50,265 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:39:50,269 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:39:50,273 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:40:05,049 - master - INFO - GetFileInfo request for file: distributed_systems.txt
+2024-10-28 19:40:12,264 - master - INFO - Health check request received
+2024-10-28 19:40:20,284 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:40:20,288 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:40:20,296 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:40:33,040 - master - INFO - Download request for file: distributed_systemss.txt
+2024-10-28 19:40:43,163 - master - INFO - Delete request for file: distributed_systems.txt
+2024-10-28 19:40:50,307 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:40:50,310 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:40:50,314 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:40:53,815 - master - INFO - List files request received. Detail: True, Filter: 
+2024-10-28 19:41:15,652 - master - INFO - Received upload request for file: distributed_systems.txt
+2024-10-28 19:41:20,325 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:41:20,329 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:41:20,333 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:41:21,953 - master - INFO - List files request received. Detail: True, Filter: 
+2024-10-28 19:41:21,953 - master - INFO - GetFileInfo request for file: distributed_systems.txt
+2024-10-28 19:41:32,793 - master - INFO - List files request received. Detail: True, Filter: 
+2024-10-28 19:41:32,794 - master - INFO - GetFileInfo request for file: distributed_systems.txt
+2024-10-28 19:41:39,305 - master - INFO - GetFileInfo request for file: distributed_systems.txt
+2024-10-28 19:41:43,778 - master - INFO - GetFileInfo request for file: distributed_systemsa.txt
+2024-10-28 19:41:50,342 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:41:50,345 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:41:50,346 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:41:58,727 - master - INFO - Download request for file: distributed_systemss.txt
+2024-10-28 19:42:08,670 - master - INFO - Download request for file: distributed_systems.txt
+2024-10-28 19:42:15,117 - master - INFO - Download request for file: distributed_systems.txt
+2024-10-28 19:42:20,357 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:42:20,360 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:42:20,364 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:42:32,879 - master - INFO - List files request received. Detail: True, Filter: 
+2024-10-28 19:42:32,880 - master - INFO - GetFileInfo request for file: distributed_systems.txt
+2024-10-28 19:42:40,724 - master - INFO - List files request received. Detail: False, Filter: 
+2024-10-28 19:42:50,371 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:42:50,376 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:42:50,380 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:42:52,744 - master - INFO - Delete request for file: distributed_systemss.txt
+2024-10-28 19:42:56,398 - master - INFO - Delete request for file: distributed_systems.txt
+2024-10-28 19:43:06,330 - master - INFO - List files request received. Detail: False, Filter: 
+2024-10-28 19:43:09,101 - master - INFO - List files request received. Detail: True, Filter: 
+2024-10-28 19:43:13,630 - master - INFO - Download request for file: distributed_systems.txt
+2024-10-28 19:43:20,389 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:43:20,393 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:43:20,396 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:43:25,485 - master - INFO - GetFileInfo request for file: distributed_systemsa.txt
+2024-10-28 19:43:29,715 - master - INFO - GetFileInfo request for file: distributed_systems.txt
+2024-10-28 19:43:50,404 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:43:50,409 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:43:50,414 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:44:20,430 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:44:20,438 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:44:20,440 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:44:50,466 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:44:50,470 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:44:50,475 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:45:20,486 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:45:20,491 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:45:20,495 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:45:50,533 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:45:50,541 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:45:50,543 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:46:20,556 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:46:20,562 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:46:20,567 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:46:50,579 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:46:50,583 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:46:50,586 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:47:20,600 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:47:20,606 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:47:20,611 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:47:50,623 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:47:50,628 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:47:50,633 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:48:20,645 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:48:20,650 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:48:20,655 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:48:50,667 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:48:50,672 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:48:50,677 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:49:20,691 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:49:20,697 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:49:20,702 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:49:50,714 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:49:50,718 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:49:50,722 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:50:20,732 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:50:20,740 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:50:20,748 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:50:50,764 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:50:50,777 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:50:50,785 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:51:20,798 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:51:20,804 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:51:20,811 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:51:50,821 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:51:50,822 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:51:50,824 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:52:20,838 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:52:20,846 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:52:20,860 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:52:50,878 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:52:50,892 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:52:50,896 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:53:20,908 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:53:20,913 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:53:20,918 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:53:50,929 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:53:50,933 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:53:50,936 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:54:20,949 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:54:20,954 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:54:20,959 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:54:50,973 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:54:50,979 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:54:50,984 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:55:20,993 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:55:20,997 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:55:21,001 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:55:51,007 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:55:51,009 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:55:51,010 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:56:21,023 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:56:21,027 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:56:21,032 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:56:51,047 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:56:51,055 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:56:51,062 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:57:21,075 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:57:21,080 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:57:21,084 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:57:51,097 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:57:51,101 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:57:51,106 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:58:21,118 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:58:21,123 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:58:21,127 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:58:51,144 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:58:51,153 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:58:51,160 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:59:21,173 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:59:21,181 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:59:21,186 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 19:59:51,201 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 19:59:51,205 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 19:59:51,209 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 20:00:21,227 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 20:00:21,235 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 20:00:21,242 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 20:00:51,254 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 20:00:51,258 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 20:00:51,263 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 20:01:21,275 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 20:01:21,281 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 20:01:21,286 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 20:01:51,298 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 20:01:51,304 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 20:01:51,308 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 20:02:21,321 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 20:02:21,328 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 20:02:21,340 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 20:02:51,353 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 20:02:51,359 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 20:02:51,365 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 20:03:21,371 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 20:03:21,375 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 20:03:21,379 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 20:03:51,392 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 20:03:51,397 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 20:03:51,404 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 20:04:21,415 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 20:04:21,419 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 20:04:21,423 - master - INFO - Worker localhost:50053 health check passed: HEALTHY
+2024-10-28 20:04:51,428 - master - INFO - Worker localhost:50051 health check passed: HEALTHY
+2024-10-28 20:04:51,431 - master - INFO - Worker localhost:50052 health check passed: HEALTHY
+2024-10-28 20:04:51,433 - master - INFO - Worker localhost:50053 health check passed: HEALTHY

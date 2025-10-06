@@ -1,0 +1,113 @@
+2024-12-16 19:49:11,871 - worker - INFO - Starting worker server on port 50051...
+2024-12-16 19:49:21,466 - worker - INFO - Starting worker server on port 50052...
+2024-12-16 19:49:32,297 - worker - INFO - Starting worker server on port 50053...
+2024-12-16 19:49:40,760 - worker - INFO - Health check request received
+2024-12-16 19:49:40,762 - worker - INFO - Health check request received
+2024-12-16 19:49:40,764 - worker - INFO - Health check request received
+2024-12-16 19:50:10,775 - worker - INFO - Health check request received
+2024-12-16 19:50:10,783 - worker - INFO - Health check request received
+2024-12-16 19:50:10,788 - worker - INFO - Health check request received
+2024-12-16 19:50:40,800 - worker - INFO - Health check request received
+2024-12-16 19:50:40,804 - worker - INFO - Health check request received
+2024-12-16 19:50:40,806 - worker - INFO - Health check request received
+2024-12-16 19:51:10,818 - worker - INFO - Health check request received
+2024-12-16 19:51:10,822 - worker - INFO - Health check request received
+2024-12-16 19:51:10,826 - worker - INFO - Health check request received
+2024-12-16 19:51:40,838 - worker - INFO - Health check request received
+2024-12-16 19:51:40,843 - worker - INFO - Health check request received
+2024-12-16 19:51:40,848 - worker - INFO - Health check request received
+2024-12-16 19:52:10,863 - worker - INFO - Health check request received
+2024-12-16 19:52:10,868 - worker - INFO - Health check request received
+2024-12-16 19:52:10,871 - worker - INFO - Health check request received
+2024-12-16 19:52:40,884 - worker - INFO - Health check request received
+2024-12-16 19:52:40,891 - worker - INFO - Health check request received
+2024-12-16 19:52:40,898 - worker - INFO - Health check request received
+2024-12-16 19:53:10,909 - worker - INFO - Health check request received
+2024-12-16 19:53:10,915 - worker - INFO - Health check request received
+2024-12-16 19:53:10,922 - worker - INFO - Health check request received
+2024-12-16 19:53:40,936 - worker - INFO - Health check request received
+2024-12-16 19:53:40,940 - worker - INFO - Health check request received
+2024-12-16 19:53:40,942 - worker - INFO - Health check request received
+2024-12-16 19:54:10,953 - worker - INFO - Health check request received
+2024-12-16 19:54:10,958 - worker - INFO - Health check request received
+2024-12-16 19:54:10,962 - worker - INFO - Health check request received
+2024-12-16 19:54:40,974 - worker - INFO - Health check request received
+2024-12-16 19:54:40,980 - worker - INFO - Health check request received
+2024-12-16 19:54:40,985 - worker - INFO - Health check request received
+2024-12-16 19:55:10,999 - worker - INFO - Health check request received
+2024-12-16 19:55:11,007 - worker - INFO - Health check request received
+2024-12-16 19:55:11,015 - worker - INFO - Health check request received
+2024-12-16 19:55:41,029 - worker - INFO - Health check request received
+2024-12-16 19:55:41,038 - worker - INFO - Health check request received
+2024-12-16 19:55:41,044 - worker - INFO - Health check request received
+2024-12-16 19:56:11,053 - worker - INFO - Health check request received
+2024-12-16 19:56:11,055 - worker - INFO - Health check request received
+2024-12-16 19:56:11,056 - worker - INFO - Health check request received
+2024-12-16 19:56:41,066 - worker - INFO - Health check request received
+2024-12-16 19:56:41,070 - worker - INFO - Health check request received
+2024-12-16 19:56:41,075 - worker - INFO - Health check request received
+2024-12-16 19:57:11,084 - worker - INFO - Health check request received
+2024-12-16 19:57:11,086 - worker - INFO - Health check request received
+2024-12-16 19:57:11,088 - worker - INFO - Health check request received
+2024-12-16 19:57:41,092 - worker - INFO - Health check request received
+2024-12-16 19:57:41,094 - worker - INFO - Health check request received
+2024-12-16 19:57:41,096 - worker - INFO - Health check request received
+2024-12-16 19:58:11,106 - worker - INFO - Health check request received
+2024-12-16 19:58:11,111 - worker - INFO - Health check request received
+2024-12-16 19:58:11,115 - worker - INFO - Health check request received
+2024-12-16 19:58:41,123 - worker - INFO - Health check request received
+2024-12-16 19:58:41,132 - worker - INFO - Health check request received
+2024-12-16 19:58:41,142 - worker - INFO - Health check request received
+2024-12-16 19:59:11,155 - worker - INFO - Health check request received
+2024-12-16 19:59:11,162 - worker - INFO - Health check request received
+2024-12-16 19:59:11,168 - worker - INFO - Health check request received
+2024-12-16 19:59:41,182 - worker - INFO - Health check request received
+2024-12-16 19:59:41,189 - worker - INFO - Health check request received
+2024-12-16 19:59:41,197 - worker - INFO - Health check request received
+2024-12-16 20:00:11,209 - worker - INFO - Health check request received
+2024-12-16 20:00:11,218 - worker - INFO - Health check request received
+2024-12-16 20:00:11,226 - worker - INFO - Health check request received
+2024-12-16 20:00:41,237 - worker - INFO - Health check request received
+2024-12-16 20:00:41,241 - worker - INFO - Health check request received
+2024-12-16 20:00:41,244 - worker - INFO - Health check request received
+2024-12-16 20:01:11,256 - worker - INFO - Health check request received
+2024-12-16 20:01:11,263 - worker - INFO - Health check request received
+2024-12-16 20:01:11,268 - worker - INFO - Health check request received
+2024-12-16 20:01:41,280 - worker - INFO - Health check request received
+2024-12-16 20:01:41,286 - worker - INFO - Health check request received
+2024-12-16 20:01:41,291 - worker - INFO - Health check request received
+2024-12-16 20:02:11,300 - worker - INFO - Health check request received
+2024-12-16 20:02:11,306 - worker - INFO - Health check request received
+2024-12-16 20:02:11,313 - worker - INFO - Health check request received
+2024-12-16 20:02:41,327 - worker - INFO - Health check request received
+2024-12-16 20:02:41,332 - worker - INFO - Health check request received
+2024-12-16 20:02:41,337 - worker - INFO - Health check request received
+2024-12-16 20:03:11,347 - worker - INFO - Health check request received
+2024-12-16 20:03:11,352 - worker - INFO - Health check request received
+2024-12-16 20:03:11,357 - worker - INFO - Health check request received
+2024-12-16 20:08:07,262 - worker - INFO - Upload request for file: distributed_systems.txt
+2024-12-16 20:08:07,265 - worker - INFO - Successfully stored file at: storage2/distributed_systems.txt_v1.0
+2024-12-16 20:08:07,268 - worker - INFO - Upload request for file: distributed_systems.txt
+2024-12-16 20:08:07,269 - worker - INFO - Successfully stored file at: storage3/distributed_systems.txt_v1.0
+2024-12-16 20:08:56,800 - worker - INFO - Download request for file: distributed_systems.txt
+2024-12-16 20:08:56,801 - worker - INFO - Reading file from: storage2/distributed_systems.txt_v1.0
+2024-12-16 20:10:00,454 - worker - INFO - Delete request for file: distributed_systems.txt
+2024-12-16 20:10:00,455 - worker - INFO - Successfully deleted 1 versions
+2024-12-16 20:10:00,456 - worker - INFO - Delete request for file: distributed_systems.txt
+2024-12-16 20:10:00,457 - worker - INFO - Successfully deleted 1 versions
+2024-12-16 23:39:47,795 - worker - INFO - Starting worker server on port 50051...
+2024-12-16 23:39:57,479 - worker - INFO - Starting worker server on port 50052...
+2024-12-16 23:40:22,867 - worker - INFO - Health check request received
+2024-12-16 23:40:52,887 - worker - INFO - Health check request received
+2024-12-16 23:41:22,911 - worker - INFO - Health check request received
+2024-12-16 23:41:52,934 - worker - INFO - Health check request received
+2024-12-16 23:42:22,956 - worker - INFO - Health check request received
+2024-12-16 23:46:07,484 - worker - INFO - Starting worker server on port 50053...
+2024-12-16 23:46:59,639 - worker - INFO - Upload request for file: distributed_systems.txt
+2024-12-16 23:46:59,639 - worker - INFO - Successfully stored file at: storage1/distributed_systems.txt_v1.0
+2024-12-16 23:46:59,641 - worker - INFO - Upload request for file: distributed_systems.txt
+2024-12-16 23:46:59,641 - worker - INFO - Successfully stored file at: storage2/distributed_systems.txt_v1.0
+2024-12-16 23:46:59,643 - worker - INFO - Upload request for file: distributed_systems.txt
+2024-12-16 23:46:59,644 - worker - INFO - Successfully stored file at: storage3/distributed_systems.txt_v1.0
+2024-12-16 23:47:16,666 - worker - INFO - Download request for file: distributed_systems.txt
+2024-12-16 23:47:16,667 - worker - INFO - Reading file from: storage1/distributed_systems.txt_v1.0

@@ -1,0 +1,21 @@
+# Core dependencies
+grpcio>=1.59.0
+grpcio-tools>=1.59.0
+protobuf>=4.21.0
+
+# CLI and UI dependencies
+click>=8.1.7
+rich>=13.7.0
+watchdog>=3.0.0
+
+psutil
+
+# Cryptography for key management
+cryptography>=41.0.0
+
+# Async support
+asyncio>=3.4.3
+
+# Testing dependencies
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
